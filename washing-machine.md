@@ -73,7 +73,7 @@ Payload: {
     "project"   : "6310301006",
     "model"     : "Front-load-washing-machine",
     "serial"    : "WSH-SN01",
-    "name"      : "status"
+    "name"      : "status",
     "value"     : "maint"    
 }
 ```
