@@ -54,9 +54,9 @@ Payload: {
 
 ## Monitor machine sensor
 ```
-Topic: v1cdti/hw/get/6310301006/Front-load-washing-machine/WSH-SN001
+Topic: v1cdti/hw/monitor/6310301006/Front-load-washing-machine/WSH-SN001
 Payload: {
-    "action"    : "get",
+    "action"    : "monitor",
     "project"   : "6310301006",
     "model"     : "Front-load-washing-machine",
     "serial"    : "WSH-SN01",
