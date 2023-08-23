@@ -37,7 +37,18 @@ Payload: {
     "name"      : "manufacture-id",
     "value"     : "114.114"
 }
+Topic: v1cdti/hw/get/6310301006/Front-load-washing-machine/WSH-SN001
+Payload: {
+    "action"    : "get",
+    "project"   : "6310301006",
+    "model"     : "Front-load-washing-machine",
+    "serial"    : "WSH-SN01",
+    "name"      : "location-placement",
+    "value"     : "Chainat"
+}
+
 ```
+
 
 ## Set geo-location or location placement
 ```
@@ -50,6 +61,7 @@ Payload: {
     "name"      : "location-placement",
     "value"     : "Bangkok"
 }
+
 ```
 
 ## Monitor machine sensor
