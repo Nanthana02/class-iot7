@@ -2,11 +2,11 @@
 
 ## Get hardware level operations e.g. wash_count
 ```
-Topic: v1cdti/hw/get/6310301006/Get-hardware-level/WSH-SN001
+Topic: v1cdti/hw/get/6310301006/Front-load-washing-machine/WSH-SN001
 Payload: {
     "action"    : "get",
     "project"   : "6310301006",
-    "model"     : "Get-hardware-level",
+    "model"     : "Front-load-washing-machine",
     "serial"    : "WSH-SN01",
     "name"      : "wash_count",
     "value"     : "118"
@@ -15,11 +15,11 @@ Payload: {
 
 ## Get firmware version
 ```
-Topic: v1cdti/hw/set/6310301006/firmware/WSH-SN001
+Topic: v1cdti/hw/get/6310301006/Front-load-washing-machine/WSH-SN001
 Payload: {
     "action"    : "get",
     "project"   : "6310301006",
-    "model"     : "firmware",
+    "model"     : "Front-load-washing-machine",
     "serial"    : "WSH-SN01",
     "name"      : "firmware-version",
     "value"     : "24.0"
@@ -28,11 +28,11 @@ Payload: {
 
 ## Get manufacture id and geo-location or location placement
 ```
-Topic: v1cdti/hw/set/6310301006/manufacture-id/WSH-SN001
+Topic: v1cdti/hw/get/6310301006/Front-load-washing-machine/WSH-SN001
 Payload: {
     "action"    : "get",
     "project"   : "6310301006",
-    "model"     : "manufacture-id",
+    "model"     : "Front-load-washing-machine",
     "serial"    : "WSH-SN01",
     "name"      : "manufacture-id",
     "value"     : "114.114"
@@ -41,11 +41,11 @@ Payload: {
 
 ## Set geo-location or location placement
 ```
-Topic: v1cdti/hw/set/6310301006/location-placement/WSH-SN001
+Topic: v1cdti/hw/set/6310301006/Front-load-washing-machine/WSH-SN001
 Payload: {
     "action"    : "set",
     "project"   : "6310301006",
-    "model"     : "location-placement",
+    "model"     : "Front-load-washing-machine",
     "serial"    : "WSH-SN01",
     "name"      : "location-placement",
     "value"     : "Bangkok"
@@ -54,11 +54,11 @@ Payload: {
 
 ## Monitor machine sensor
 ```
-Topic: v1cdti/hw/set/6310301006/Monitor-machine-sensor/WSH-SN001
+Topic: v1cdti/hw/get/6310301006/Front-load-washing-machine/WSH-SN001
 Payload: {
-    "action"    : "set",
+    "action"    : "get",
     "project"   : "6310301006",
-    "model"     : "Monitor-machine-sensor",
+    "model"     : "Front-load-washing-machine",
     "serial"    : "WSH-SN01",
     "name"      : "Monitor-machine-sensor",
     "value"     : "25"
@@ -67,7 +67,7 @@ Payload: {
 
 ## Set machie status to "maint" to indicate this machine need to be maintenance.
 ```
-Topic: v1cdti/hw/set/6310301006/maint/WSH-SN001
+Topic: v1cdti/hw/set/6310301006/Front-load-washing-machine/WSH-SN001
 Payload: {
     "action"    : "set",
     "project"   : "6310301006",
