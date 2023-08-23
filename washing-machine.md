@@ -74,5 +74,6 @@ Payload: {
     "model"     : "Front-load-washing-machine",
     "serial"    : "WSH-SN01",
     "name"      : "status"
+    "value"     : "maint"    
 }
 ```
