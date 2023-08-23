@@ -71,9 +71,8 @@ Topic: v1cdti/hw/set/6310301006/Front-load-washing-machine/WSH-SN001
 Payload: {
     "action"    : "set",
     "project"   : "6310301006",
-    "model"     : "maint",
+    "model"     : "Front-load-washing-machine",
     "serial"    : "WSH-SN01",
-    "name"      : "maint",
-    "value"     : "67"
+    "name"      : "status",
 }
 ```
